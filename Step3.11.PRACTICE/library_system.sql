@@ -104,7 +104,7 @@ ALTER TABLE books
 /* Insère des auteurs dans la table authors */
 INSERT INTO authors
     (name)
-    VALUES  ("George Orwell"), ("Jules Verne"), ("George Orwell"), ("Aldous Huxley"), ("Victor Hugo"), ("Albert Camus"), ("Jules Verne")
+    VALUES  ("George Orwell"), ("Jules Verne"), ("George Orwell"), ("Aldous Huxley"), ("Victor Hugo"), ("Albert Camus")
 ;
 
 /* Met à jour la colonne author_id dans la table books en fonction des auteurs correspondants */
@@ -128,7 +128,7 @@ UPDATE books
 ;
 
 UPDATE books
-    SET author_id = 7
+    SET author_id = 2
     WHERE title = "L'Île mystérieuse"
 ;
 /* ======================================================= */
